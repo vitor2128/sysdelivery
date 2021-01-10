@@ -34,7 +34,7 @@ public class OrderDTO implements Serializable {
 		this.longitude = longitude;
 		this.moment = moment;
 		this.status = status;
-		this.total = total
+		this.total = total;
 	}
 	
 	public OrderDTO(Order entity) {
